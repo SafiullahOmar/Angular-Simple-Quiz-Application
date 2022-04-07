@@ -7,13 +7,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { QuestionComponent } from './question/question.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ChBgroundDirective } from './ch-bground.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     QuestionComponent,
-    HeaderComponent
+    HeaderComponent,
+    ChBgroundDirective
   ],
   imports: [
     BrowserModule,
